@@ -1,0 +1,36 @@
+package atividade.operadores;
+import java.util.Scanner;
+
+public class exerciciosArrayVetor {
+
+	public static void main(String[] args) {
+		Scanner read = new Scanner(System.in);
+		
+		int numeros[] = {2,5,1,3,4,9,7,8,10,6};
+		int x;
+		
+	
+		System.out.println("\n Entre com um número: ");
+		x = read.nextInt();
+		
+		for (x=0;x<9;x++) {
+			
+			
+		
+			
+			
+			
+
+			}
+			
+			
+			
+		}
+		
+		
+				
+		
+	}
+	
+
+}

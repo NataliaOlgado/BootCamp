@@ -1,0 +1,30 @@
+package LacosCondicionaispack;
+import java.util.Scanner;
+
+public class ExercicioLCSW2 {
+
+	public static void main(String[] args) {
+		Scanner read = new Scanner(System.in);
+		
+		float salario;
+		String nome;
+		int cargo;
+		
+	System.out.println("\n\t \t Planilha de Ajutes ");
+	System.out.println("\n 1- \t Gerente");
+	System.out.println("\n 2- \t Vendedor");
+	System.out.println("\n 3- \t Supervisor");
+	System.out.println("\n 4- \t Motorista");
+	System.out.println("\n 5- \t Estoquista");
+	System.out.println("\n 6- \t Tecnico de TI");
+	System.out.println("\n\t Digite o código do seu cargo: ");
+	nome = read.nextInt();
+	System.out.println("\n Digite a Quantidade");
+	salario= read.nextInt();
+		
+		
+		
+
+	}
+
+}

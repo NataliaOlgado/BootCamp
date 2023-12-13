@@ -1,0 +1,18 @@
+package LacosCondicionaispack;
+
+import java.util.Scanner;
+public class ExercicioSwitch1 {
+
+	public static void main(String[] args) {
+		Scanner read = new Scanner(System.in);
+		
+		System.out.println("\n\t Meuno de Produto");
+		System.out.println("\n 1- \t Cachorro Quente \t R$ 10,00");
+		System.out.println("\n 2- \t X-Salada \t R$ 15,00");
+		System.out.println("\n 3- \t X-Bacon \t R$ 18,00");
+		System.out.println("\n 4- \t Bauru \t R$ 12,00");
+		System.out.println("\n 5- \t Refrigerante \t R$ 8,00");
+		System.out.println("\n 6- \t Suco de laranja \t R$ 13,00");
+	}
+
+}

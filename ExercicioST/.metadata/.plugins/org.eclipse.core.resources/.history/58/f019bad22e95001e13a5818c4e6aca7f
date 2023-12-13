@@ -1,0 +1,63 @@
+package LacosCondicionaispack;
+import java.util.Scanner;
+
+public class ExercicioLCSW2 {
+
+	public static void main(String[] args) {
+		Scanner read = new Scanner(System.in);
+		
+		float salario;
+		String nome;
+		int cargo;
+		
+	System.out.println("\n\t \t Planilha de Ajutes ");
+	System.out.println("\n 1- \t Gerente");
+	System.out.println("\n 2- \t Vendedor");
+	System.out.println("\n 3- \t Supervisor");
+	System.out.println("\n 4- \t Motorista");
+	System.out.println("\n 5- \t Estoquista");
+	System.out.println("\n 6- \t Tecnico de TI");
+	System.out.println("\n\t Digite o código do seu cargo: ");
+	cargo = read.nextInt();
+	System.out.println("\n\t \t Digite seu nome ");
+	nome = read.nextLine();
+	System.out.println("\n Digite o salario");
+	salario= read.nextFloat();
+	
+	
+	switch(salario) {
+	case 1: 
+		System.out.println("\n Nome do Colaborador:" +nome+ "Cargo: Gerente  Salario reajustado" +(salario*1.10));
+		break;
+	
+	case 2:
+		System.out.println("\n X-salada \t Valor total: " + 15*quantidade);
+		break;
+		
+	case 3:
+		System.out.println("\n X- Bacon \t Valor total: " + 18*quantidade);
+		break;
+		
+	case 4:
+		System.out.println("\n Bauro  \t Valor total: " + 12*quantidade);
+		break;
+		
+	case 5:
+		System.out.println("\n Refrigerante  \t  Valor total:" + 8*quantidade);
+		break;
+		
+	case 6:
+		System.out.println("\n Suco de Laranja \t Valor Total: " + 13*quantidade);
+		break;
+		
+		default: 
+			System.out.println("\n Opção Invalida");
+			
+			read.close();
+		
+	}
+		
+
+	}
+
+}

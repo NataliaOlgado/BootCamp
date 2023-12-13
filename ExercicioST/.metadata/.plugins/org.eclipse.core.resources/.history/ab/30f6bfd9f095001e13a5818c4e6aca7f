@@ -1,0 +1,27 @@
+package LacosCondicionaispack;
+import java.util.Scanner;
+
+public class lacosrepeticaowhile {
+
+	public static void main(String[] args) {
+Scanner read = new Scanner(System.in);
+		
+		int resultado, opcao, numero;
+		
+		System.out.println("\n-- Calculadora que só multipicla por 5");
+		System.out.println("\n--  Digite um numero diferene de 0: ");
+		opcao = read.nextInt();
+	
+		while (opcao!=0) {
+			resultado = opcao*5;
+			System.out.println("\n-- Resultado : " +resultado);
+
+			System.out.println("\n Entre com outro numero ou digite 0 para sair: ");
+			opcao = read.nextInt();
+		
+		}
+		System.out.println("\n Você Saiu do Calculadora ");
+		
+	}
+
+}

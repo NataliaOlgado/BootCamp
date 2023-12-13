@@ -1,0 +1,28 @@
+package LacosCondicionaispack;
+
+import java.util.Scanner;
+
+public class LacosdeRepeticao {
+
+	public static void main(String[] args) {
+		Scanner read = new Scanner(System.in);
+		
+		int contador;
+		String nome;
+		
+		System.out.println("\n\t As Vagas são limitadas, Inscreva-se já!!!");
+		
+		for (contador = 1; contador <4; contador++) {
+			
+			System.out.println("\n\t Vc foi" + contador + " Digite seu nome: ");
+			nome= read.nextLine();
+				
+		}
+		
+		System.out.println("\n\t Vagas Esgotadas!!! ");
+		
+		read.close();
+
+	}
+
+}
